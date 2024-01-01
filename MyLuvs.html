@@ -13,7 +13,7 @@
     <header class="sticky">    
         <div class="header-container">
             <nav>
-                <img src="WhiteOutlineLogo.png" class= "logo-image">
+                <img src="WhiteOutlineLogo.png" class= "logo-image" id="logo">
                 <ul class="nav-links">
                     <li><a href="#Shop">Shop</a></li>
                     <li><a href="#Work">Work</a></li>
@@ -27,6 +27,7 @@
     <script type="text/javascript">
         window.addEventListener("scroll", function(){
             var header = document.querySelector("header");
+            var logo = document.getElementById('logo');
             header.classList.toggle("sticky", window.scrollY > 100);
             if(scrollPosition > 100){
                 logo.src = "BrownOutlineLogo.png";
