@@ -138,6 +138,7 @@ header.sticky ul li a:hover::after{
 
 .nav-links#sidebar a{
     width: 100%;
+    padding-top: 30px;
 }
 
 main {
