@@ -157,7 +157,12 @@ header.sticky ul li a:hover::after{
 .nav-links#sidebar a{
     width: 100%;
 }
-
+.menu-image{
+    width: 70px;
+    height: 70px;
+    padding-bottom: 0px;
+    position: relative;
+}
 main {
     padding: 1em;
 }
