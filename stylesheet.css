@@ -11,6 +11,22 @@ header {
     text-align: center;
     padding: 1em;*/
 
+    height: 100px;
+    width: 100%;
+    padding: 0 10%;
+    border-width: 0.5px;
+    border-bottom-style: solid;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    position:fixed;
+    top:0;
+}
+
+.header-container{
     max-height: 80px;
     max-width: 2040px;
     padding-top: 10px;
@@ -19,8 +35,8 @@ header {
     margin-right: auto; 
     display: block;
     -webkit-text-size-adjust: 100%;
-
 }
+
 .logo-image{
     margin-left: 5%;
     width: 70px;
