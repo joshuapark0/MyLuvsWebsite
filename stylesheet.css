@@ -22,7 +22,7 @@ header{
 }
 
 header.sticky{
-    background-color: #F7F2EF;
+    background-color: white;
     
 }
 
@@ -112,6 +112,29 @@ header.sticky ul li a::after{
 
 header.sticky ul li a:hover::after{
     width: 100%
+}
+
+.sidebar{
+    position:fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: white;
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+}
+
+.sidebar a{
+    width: 100%;
 }
 
 main {
