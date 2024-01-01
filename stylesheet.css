@@ -96,14 +96,23 @@ nav ul li{
 }
 
 header.sticky ul li a{
-    color: black;
+    color: #C79A89;
 }
 
-header.sticky .logo-image ul li a{
-    src: url(BrownOutlineLogo.png);
+header.sticky ul li a::after{
+    content:'';
+    background: #C79A89;
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
 }
 
-
+header.sticky ul li a:hover::after{
+    width: 100%
+}
 
 main {
     padding: 1em;
