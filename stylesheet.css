@@ -20,12 +20,7 @@ body {
     -webkit-text-size-adjust: 100%;
     position:fixed;
     top:0;
-    transition: top 0.3s; 
 }
-
-.header.hidden {
-    top: -100px; /* Hides the header when scrolled down */
-  }
 
 .header-container{
     height: 80px;
@@ -86,6 +81,16 @@ nav ul li{
 }
 .nav-links li a:hover::after{
     width: 100%
+}
+
+.banner{
+    position:relative;
+    width: 100%;
+    height: 50vh;
+    background: url(Banner.JPG);
+    background-size: cover;
+    
+
 }
 
 main {
