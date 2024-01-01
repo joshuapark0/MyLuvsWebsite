@@ -70,6 +70,32 @@ header {
     transition: opacity 400ms cubic-bezier(.4,0,.2,1);
     will-change: opacity;
 }
+
+.header-display-desktop{
+    position: relative;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-nav-wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1 0 67%;
+    align-items: center;
+}
+
+.logo{
+    flex-grow: 0;
+    flex-shrink: 0;
+    backface-visibility: hidden;
+    min-width: 768px;
+    max-width: calc(1295px);
+    orientation: landscape;
+}
+
 .header-container{
     max-height: 80px;
     max-width: 2040px;
