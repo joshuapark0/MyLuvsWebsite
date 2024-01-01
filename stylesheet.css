@@ -114,7 +114,9 @@ header.sticky ul li a:hover::after{
     width: 100%
 }
 
-.nav-links#sidebar{
+.sidebar{
+    text-decoration: none;
+    color: black;
     position:fixed;
     top: 0;
     right: 0;
@@ -129,11 +131,11 @@ header.sticky ul li a:hover::after{
     justify-content: flex-start;
 }
 
-.nav-links#sidebar li{
+.sidebar li{
     width: 100%;
 }
 
-.nav-links#sidebar a{
+.sidebar a{
     width: 100%;
 }
 
