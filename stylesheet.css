@@ -90,7 +90,7 @@ header {
 .logo{
     flex-grow: 0;
     flex-shrink: 0;
-    backface-visibility: hidden;
+    
     min-width: 768px;
     max-width: calc(1295px);
     orientation: landscape;
