@@ -114,7 +114,7 @@ header.sticky ul li a:hover::after{
     width: 100%
 }
 
-.sidebar{
+.nav-links#sidebar{
     font-family: 'Cormorant Garamond';
     text-decoration: none;
     color: black;
@@ -132,11 +132,11 @@ header.sticky ul li a:hover::after{
     justify-content: flex-start;
 }
 
-.sidebar li{
+.nav-links#sidebar li{
     width: 100%;
 }
 
-.sidebar a{
+.nav-links#sidebar a{
     width: 100%;
 }
 
