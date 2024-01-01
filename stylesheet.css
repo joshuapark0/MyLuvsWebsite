@@ -134,12 +134,11 @@ header.sticky ul li a:hover::after{
 
 .nav-links#sidebar li{
     width: 100%;
-    padding-top:70px;
+    padding-top:40px;
 }
 
 .nav-links#sidebar a{
     width: 100%;
-    padding-top:70px;
 }
 
 main {
