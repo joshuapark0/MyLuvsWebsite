@@ -104,7 +104,7 @@ header {
     border-width: 0.5px;
     border-bottom-style: solid;
     border-bottom: 1px solid #e1e1e1;
-    background-color: #fff;
+    background-color: black;
     box-sizing: border-box;
     display: block;
     -webkit-font-smoothing: antialiased;
