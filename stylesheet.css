@@ -9,7 +9,7 @@ body {
 
     height: 100px;
     width: 100%;
-    
+    z-index: 100000;
     border-width: 0.5px;
     border-bottom-style: solid;
     border-bottom: 1px solid #e1e1e1;
