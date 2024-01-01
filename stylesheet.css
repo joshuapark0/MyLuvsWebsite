@@ -143,7 +143,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Cormorant Garamond', sans-serif;
+    font-family: 'Cormorant Garamond';
 }
 
 nav ul li{
