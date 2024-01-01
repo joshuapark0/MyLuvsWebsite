@@ -21,6 +21,18 @@ header {
     -webkit-text-size-adjust: 100%;
 
 }
+.logo-image{
+    margin-left: 5%;
+    width: 70px;
+    height: 70px;
+    padding-bottom: 0px;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-text-size-adjust: 100%;
+}
+
 
 main {
     padding: 1em;
