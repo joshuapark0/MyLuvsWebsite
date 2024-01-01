@@ -29,13 +29,13 @@
             var header = document.querySelector("header");
             var logo = document.getElementById('logo');
             header.classList.toggle("sticky", window.scrollY > 100);
-            if(scrollPosition > 100){
+            if(window.scrollY > 100){
                 logo.src = "BrownOutlineLogo.png";
             }
             else{
                 logo.src = "WhiteOutlineLogo.png";
             }
-        })
+        });
     </script>
     <section id="Home">
         <div class="introbox">
