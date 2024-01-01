@@ -115,7 +115,7 @@ header {
 
 .header-container{
     max-height: 80px;
-    max-width: 100%;
+    max-width: 2040px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: auto;
@@ -141,7 +141,7 @@ nav{
     
     width: 100%;
     display: flex;
-    align-items: right;
+    align-items: center;
     justify-content: space-between;
     font-family: 'Cormorant Garamond';
 }
