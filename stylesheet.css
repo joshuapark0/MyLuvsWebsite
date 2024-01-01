@@ -113,7 +113,23 @@ header.sticky ul li a::after{
 header.sticky ul li a:hover::after{
     width: 100%
 }
+#sidebar {
+    margin: 0;
+    padding: 0;
+    /* Other styles */
+}
 
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    /* Other styles */
+}
+
+#sidebar li {
+    margin: 0;
+    padding: 0;
+    /* Other styles */
+}
 .nav-links#sidebar{
     font-family: 'Cormorant Garamond';
     text-decoration: none;
