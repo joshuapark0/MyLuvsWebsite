@@ -5,7 +5,7 @@ body {
     background-color: #f4f4f4;
 }
 
-.header{
+header{
 
     height: 100px;
     width: 100%;
@@ -20,6 +20,11 @@ body {
     -webkit-text-size-adjust: 100%;
     position:fixed;
     top:0;
+}
+
+header.sticky{
+    padding: 5px 100px;
+    background-color: white;
 }
 
 .header-container{
@@ -89,9 +94,19 @@ nav ul li{
     height: 100vh;
     background: url(Banner.JPG);
     background-size: cover;
-
-
 }
+
+header.sticky ul li a{
+    color: black;
+    padding: 5px 100px;
+    background-color: white;
+}
+
+header.sticky .logo-image ul li a{
+    background: url(BrownOutlineLogo.png);
+}
+
+
 
 main {
     padding: 1em;

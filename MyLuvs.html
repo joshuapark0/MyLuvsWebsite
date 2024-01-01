@@ -10,7 +10,7 @@
 
 <body>
 
-    <div class="header">
+    <header class="sticky">    
         <div class="header-container">
             <nav>
                 <img src="WhiteOutlineLogo.png" class= "logo-image">
@@ -22,8 +22,14 @@
                 </ul>
             </nav>
         </div>
-    </div>
+    </header>
     <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
     <section id="Home">
         <div class="introbox">
             <div class = "introlayout">
