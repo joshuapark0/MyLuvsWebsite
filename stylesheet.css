@@ -114,7 +114,7 @@ header.sticky ul li a:hover::after{
     width: 100%
 }
 
-.nav-links.sidebar{
+.nav-links#sidebar{
     position:fixed;
     top: 0;
     right: 0;
@@ -129,11 +129,11 @@ header.sticky ul li a:hover::after{
     justify-content: flex-start;
 }
 
-.sidebar li{
+.nav-links#sidebar li{
     width: 100%;
 }
 
-.sidebar a{
+.nav-links#sidebar a{
     width: 100%;
 }
 
