@@ -20,14 +20,19 @@ body {
     -webkit-text-size-adjust: 100%;
     position:fixed;
     top:0;
+    transition: top 0.3s; 
 }
+
+.header.hidden {
+    top: -100px; /* Hides the header when scrolled down */
+  }
 
 .header-container{
     height: 80px;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: 0; /* Set margin to 0 to remove any default margins */
+    margin: 0;
     display: flex; 
     justify-content: space-between;
     -webkit-text-size-adjust: 100%;
