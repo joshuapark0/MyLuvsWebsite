@@ -130,7 +130,7 @@ header {
     width: 70px;
     height: 70px;
     padding-bottom: 0px;
-    position: relative;
+    position: left;
     float: left;
     box-sizing: border-box;
     cursor: pointer;
