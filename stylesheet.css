@@ -100,7 +100,7 @@ header.sticky ul li a{
 }
 
 header.sticky .logo-image ul li a{
-    background: url(BrownOutlineLogo.png);
+    src: url(BrownOutlineLogo.png);
 }
 
 
