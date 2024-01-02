@@ -163,6 +163,12 @@ header.sticky ul li a:hover::after{
     padding-bottom: 0px;
     position: relative;
 }
+
+.exit-image{
+    width: 20px;
+    height: 20px;
+}
+
 main {
     padding: 1em;
 }
