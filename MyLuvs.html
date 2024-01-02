@@ -19,7 +19,7 @@
                     <li><a href="#Work">Work</a></li>
                     <li><a href="#About">About</a></li>
                     <li><a href="#Contact">Contact</a></li>
-                    <li><a href="#"><img src="WhiteMenu.png"class= "menu-image"></a></li>
+                    <li onclick= showSidebar()><a href="#"><img src="WhiteMenu.png"class= "menu-image"></a></li>
                 </ul>
                 <ul class= "nav-links" id="sidebar">
                     <li><a href="#Shop">Shop</a></li>
@@ -217,6 +217,12 @@
     <footer>
         <p>&copy; 2023 Your Company</p>
     </footer>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.nav-links#sidebar')
+            sidebar.style.display = 'flex'
+        }
+    </script>
 </body>
 
 </html>
