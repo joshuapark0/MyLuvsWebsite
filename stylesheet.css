@@ -212,8 +212,12 @@ footer {
     .menu-image {
         display: inline-block; 
     }
+    .logo-image{
+        margin-left: 5%;
+    }
 }
 
+/*fill sidebar*/
 @media(max-width: 400px){
     .nav-links#sidebar{
         width: 100%;
@@ -227,7 +231,7 @@ footer {
         font-size: 20px;
     }
 }
-@media (min-width: 912px){
+@media (min-width: 821px){
     .hideOnDesktop{
         display: none; 
     }
