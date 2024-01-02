@@ -39,7 +39,7 @@ h4{
 h5{
     font-family: "cormorant-garamond", serif;
     font-style: normal;
-    font-size: 14px;
+    font-size: 16px;
     color: black;
     font-weight: 300;
 }
@@ -248,7 +248,7 @@ header.sticky ul li a:hover::after{
 }
 .slide-wrapper .item-list .item-details{
     background-color: white;
-    display:flex;
+
     align-items: center;
     height:50px;
     width:250px;
