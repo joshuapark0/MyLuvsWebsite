@@ -193,6 +193,12 @@ header.sticky ul li a:hover::after{
     padding-top: 25px;
 }
 
+.section-border#explanation{
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-top: 15px;
+}
+
 .content-wrapper{
     display: flex;
     justify-content: center;
