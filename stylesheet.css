@@ -7,7 +7,7 @@ body {
 
 h2{
     font-family: 'Cormorant Garamond';
-    font-style: italic;
+    font-style: 'Medium Italic';
     font-size: 25px;
     font-weight: 100;
 }
@@ -22,6 +22,7 @@ p{
 #accent{
     color: #C79B89;
 }
+
 
 header{
     height: 100px;
