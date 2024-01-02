@@ -213,6 +213,14 @@ footer {
     }
 }
 
+/* Ipad Air*/
+@media (min-width: 820px) {
+    .hideOnMobile{
+        display:none;
+    }
+}
+
+
 /* Desktop Styles */
 @media (min-width: 1024px) {
     body {
