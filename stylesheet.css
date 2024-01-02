@@ -252,7 +252,6 @@ header.sticky ul li a:hover::after{
     object-fit: cover;
 }
 .slide-wrapper .item-list .item-details{
-    background-color: white;
     align-items: center;
     height:50px;
     width:250px;
