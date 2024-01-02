@@ -192,6 +192,11 @@ footer {
         display:none;
     }
 }
+@media(max-width: 800px){
+    .hideOnMobile{
+        display:none;
+    }
+}
 
 
 @media(max-width: 400px){
@@ -217,9 +222,6 @@ footer {
     main {
         max-width: 800px;
         margin: 0 auto;
-    }
-    .hideOnMobile{
-        display:flex;
     }
 }
 
