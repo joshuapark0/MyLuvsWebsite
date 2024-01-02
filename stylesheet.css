@@ -5,13 +5,21 @@ body {
     background-color: #f4f4f4;
 }
 
-header{
+h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: medium;
+}
 
+#accent{
+    color: #C79B89;
+}
+
+header{
     height: 100px;
     width: 100%;
     z-index: 100000;
     border-width: 0.5px;
- 
     background-color: transparent;
     box-sizing: border-box;
     display: block;
@@ -175,6 +183,13 @@ header.sticky ul li a:hover::after{
     margin-right: 5%;
     margin-left: 5%;
     padding-top: 25px;
+}
+
+.content-wrapper{
+    display: flex;
+    max-width: 1040px;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
