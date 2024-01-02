@@ -213,7 +213,8 @@ footer {
         max-width: 800px;
         margin: 0 auto;
     }
-    .hideOnDesktop{
-        display:none;
-    }
 }
+
+/*    .hideOnDesktop{
+        display:none;
+    }*/
