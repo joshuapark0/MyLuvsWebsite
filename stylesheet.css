@@ -184,16 +184,15 @@ footer {
 }
 
 /* Mobile Styles */
-@media (min-width: 600px) {
+@media (min-width: 300px) {
     body {
         font-size: 18px;
     }
-}
-@media(max-width: 800px){
     .hideOnMobile{
         display:none;
     }
 }
+
 
 @media(max-width: 400px){
     .nav-links#sidebar{
@@ -218,6 +217,9 @@ footer {
     main {
         max-width: 800px;
         margin: 0 auto;
+    }
+    .hideOnMobile{
+        display:flex;
     }
 }
 
