@@ -184,14 +184,17 @@ footer {
 }
 
 /* Mobile Styles */
-@media (max-width: 600px) {
+@media (min-width: 600px) {
     body {
         font-size: 18px;
     }
+}
+@media(max-width: 800px){
     .hideOnMobile{
         display:none;
     }
 }
+
 
 /* Tablet Styles */
 @media (min-width: 768px) {
