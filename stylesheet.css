@@ -194,6 +194,9 @@ footer {
     .hideOnMobile{
         display:none;
     }
+    .menu-image {
+        display: inline-block; 
+    }
 }
 
 @media(max-width: 400px){
