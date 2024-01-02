@@ -7,7 +7,7 @@ body {
 
 h2{
     font-family: 'Cormorant Garamond';
-    font-style: italic;
+    font-style: thin, italic;
     font-size: 20px;
 }
 
