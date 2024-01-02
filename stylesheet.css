@@ -158,12 +158,26 @@ header.sticky ul li a:hover::after{
     width: 100%;
 }
 .menu-image{
-    margin-right: 2%;
     width: 40px;
     height: 20px;
+    margin: 0;
+    padding: 0;
     padding-bottom: 0px;
     position: relative;
 }
+
+.menu-image  ul {
+    margin: 0;
+    padding: 0;
+    /* Other styles */
+}
+
+.menu-image  li {
+    margin: 0;
+    padding: 0;
+    /* Other styles */
+}
+
 
 .exit-image{
     width: 40px;
