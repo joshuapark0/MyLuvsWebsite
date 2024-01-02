@@ -190,7 +190,7 @@ footer {
     }
 }
 
-@media(max-width: 800px){
+@media(max-width: 820px){
     .hideOnMobile{
         display:none;
     }
@@ -210,13 +210,6 @@ footer {
 @media (min-width: 768px) {
     body {
         font-size: 20px;
-    }
-}
-
-/* Ipad Air*/
-@media (min-width: 820px) {
-    .hideOnMobile{
-        display:none;
     }
 }
 
