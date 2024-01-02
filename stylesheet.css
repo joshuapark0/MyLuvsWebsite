@@ -212,6 +212,11 @@ footer {
         font-size: 20px;
     }
 }
+@media (min-width: 912px){
+    .hideOnDesktop{
+        display: none; 
+    }
+}
 
 
 /* Desktop Styles */
@@ -223,9 +228,6 @@ footer {
     main {
         max-width: 800px;
         margin: 0 auto;
-    }
-    .hideOnDesktop{
-        display: none; 
     }
 }
 
