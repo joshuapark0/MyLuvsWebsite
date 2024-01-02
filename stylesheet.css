@@ -238,7 +238,7 @@ header.sticky ul li a:hover::after{
 .slide-wrapper .item-list{
     display: grid;
     gap:20px;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(13, 1fr);
 }
 
 .slide-wrapper .item-list .item-image{
