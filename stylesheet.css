@@ -19,12 +19,29 @@ h2{
     font-weight: 500;
 }
 
-p{
+h3{
     font-family: "cormorant-garamond", serif;
+    font-style: normal;
     font-size: 20px;
     color: black;
     font-weight: 400;
     font-style: normal;
+}
+
+h4{
+    font-family: "cormorant-garamond", serif;
+    font-style: normal;
+    font-size: 10px;
+    color: black;
+    font-weight: 500;
+}
+
+h5{
+    font-family: "cormorant-garamond", serif;
+    font-style: normal;
+    font-size: 8px;
+    color: black;
+    font-weight: 300;
 }
 
 #accent{
@@ -213,6 +230,31 @@ header.sticky ul li a:hover::after{
     justify-content: center;
     align-items: center;
 }
+
+.slide-wrapper .item-list{
+    display: grid;
+    gap:20px;
+    grid-template-columns: repeat(13, 1fr);
+}
+
+.slide-wrapper .item-list .item-image{
+    height:350px;
+    width:250px;
+    object-fit: cover;
+}
+.slide-wrapper .item-list .item-image img{
+    height:100%;
+    object-fit: cover;
+}
+.slide-wrapper .item-list .item-details{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    height:50px;
+    width:250px;
+    object-fit: cover;
+}
+
 
 main {
     padding: 1em;
