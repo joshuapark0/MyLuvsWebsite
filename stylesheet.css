@@ -166,18 +166,6 @@ header.sticky ul li a:hover::after{
     position: relative;
 }
 
-.menu-image  ul {
-    margin: 0;
-    padding: 0;
-    /* Other styles */
-}
-
-.menu-image  li {
-    margin: 0;
-    padding: 0;
-    /* Other styles */
-}
-
 
 .exit-image{
     width: 40px;
@@ -214,6 +202,10 @@ footer {
     }
     .logo-image{
         margin-left: 5%;
+    }
+    .nav-links{
+        padding:0;
+        margin: 0;
     }
 }
 
