@@ -248,6 +248,7 @@ header.sticky ul li a:hover::after{
 }
 .slide-wrapper .item-list .item-image img{
     height:100%;
+    width:250px;
     object-fit: cover;
 }
 .slide-wrapper .item-list .item-details{
