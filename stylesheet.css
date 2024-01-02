@@ -188,6 +188,9 @@ footer {
     body {
         font-size: 18px;
     }
+    .hideOnMobile{
+        display:none;
+    }
 }
 
 /* Tablet Styles */
