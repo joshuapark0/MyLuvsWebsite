@@ -415,7 +415,7 @@ footer {
         align-items: center;
         display:flex;
     }
-    .mobile-slide-wrapper.slide-button{
+    .mobile-slide-wrapper.mobile-slide-button{
         position: absolute;
         height:50px;
         width: 50px;
@@ -429,11 +429,11 @@ footer {
         opacity:0.75;
         z-index: 999;
     }
-    .mobile-slide-wrapper .slide-button#prev-slide{
+    .mobile-slide-wrapper .mobile-slide-button#prev-slide{
         left:-50px;
         display:flex;
     }  
-    .mobile-slide-wrapper .slide-button#next-slide{
+    .mobile-slide-wrapper.mobile-slide-button#next-slide{
         right:-50px;
         display:flex;
     }
