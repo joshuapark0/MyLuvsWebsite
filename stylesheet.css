@@ -353,7 +353,8 @@ footer {
         position:relative;
     }
     .slide-wrapper .item-list{
-        width:100vh;
+        width:400px;
+        height:500px;
         object-fit: cover;
     }
     .slide-wrapper .item-list .item-image img{
