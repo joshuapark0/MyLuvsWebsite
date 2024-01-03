@@ -415,6 +415,20 @@ footer {
         align-items: center;
         display:flex;
     }
+    .mobile-slide-wrapper.slide-button{
+        position: absolute;
+        height:50px;
+        width: 50px;
+        color: white;
+        background: #C79B89;
+        font-size: 2.2rem;
+        cursor: pointer;
+        border-radius: 50%;
+        border:none;
+        outline:none;
+        opacity:0.75;
+        z-index: 999;
+    }
     .mobile-slide-wrapper .slide-button#prev-slide{
         left:-100px;
     }
