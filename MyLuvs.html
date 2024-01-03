@@ -193,21 +193,21 @@
 <!--Javascript functions-->
 
     <!-- Change the logo color when scrolling down -->
-    <!--
+    <!---->
     <script type="text/javascript">
         window.addEventListener("scroll", function(){
             var header = document.querySelector("header");
             var logo = document.getElementById('logo');
             header.classList.toggle("sticky", window.scrollY > 500);
             if(window.scrollY > 500){
-                logo.src = "BrownOutlineLogo.png";
+                logo.src = "WhiteOutlineLogo.png";
             }
             else{
                 logo.src = "WhiteOutlineLogo.png";
             }
         });
     </script>
-    -->
+
     <!-- Show / Hide SideBar -->
     <script>
         function showSidebar(){
