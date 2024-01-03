@@ -142,12 +142,12 @@ nav ul li{
 }
 
 header.sticky ul li a{
-    color: #C79A89;
+    color: white; /*#C79A89;*/
 }
 
 header.sticky ul li a::after{
     content:'';
-    background: #C79A89;
+    background: white; /*#C79A89;*/
     width: 0%;
     height: 1px;
     position: absolute;
