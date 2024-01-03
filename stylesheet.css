@@ -344,24 +344,20 @@ footer {
 @media(max-width: 430px){
     h1{
         font-size: 30px;
-        font-weight: 700;
-    }
+        font-weight: 700;}
     h2{
         font-size: 25px;
-        font-weight: 500;
-    }
+        font-weight: 500;}
     h3{
         font-size: 16px;
-        font-weight: 400;
-    }
+        font-weight: 400;}
     h4{
         font-size: 18px;
-        font-weight: 500;
-    }
+        font-weight: 500;}
     h5{
         font-size: 16px;
-        font-weight: 300;
-    }
+        font-weight: 300;}
+
     .section-border#explanation{
         text-align: center;
     }
@@ -374,47 +370,41 @@ footer {
     .slide-wrapper{
         display: grid;
         margin: 0 5%;
-        position:relative;
-    }
+        position:relative;}
     .slide-wrapper .item-list {
-        display: flex; /* Use flexbox for horizontal alignment */
-        padding: 10px 0; /* Add padding to the top and bottom of the item list */
-    }
-
+        flex-direction: column; /* Change flex direction to column for mobile */
+        align-items: center;
+        padding: 10px 0; /* Add padding to the top and bottom of the item list */ }
     .slide-wrapper .item-list .card {
         flex: 0 0 auto; /* Allow cards to shrink or grow within the flex container */
         width: 100%; 
-        max-width: 400px; 
-    }
+        max-width: 400px; }
     .slide-wrapper .item-list .card#last-child {
-        margin-right: 0; /* Remove right margin from the last card to prevent extra space */
-    }
-
+        margin-right: 0; /* Remove right margin from the last card to prevent extra space */}
     .slide-wrapper .item-list .card .item-image {
         width: 100%; 
         height: 0; /* Set initial height for aspect ratio */
         padding-bottom: 100%; /* Create a square aspect ratio (change as needed) */
         position: relative;
-        overflow: hidden;
-    }
-
+        overflow: hidden;}
     .slide-wrapper .item-list .card .item-image img {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%; 
         height: 100%; 
-        object-fit: cover; 
-    }
-    
+        object-fit: cover; } 
     .slide-wrapper .item-list .item-details{
         align-items: center;
         width:100%;
         object-fit: cover;
         padding-top: 0;
-        margin-top: 5%;
-    }
+        margin-top: 5%;}
 
+    .slide-wrapper .slide-button{
+        position: static; /* Remove absolute positioning for mobile */
+        margin-top: 10px; /* Add spacing between card and buttons */
+    }
 }
 
 
