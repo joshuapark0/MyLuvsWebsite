@@ -340,8 +340,32 @@ footer {
     }
 }
 
-
+/* Mobile Styles */
 @media(max-width: 430px){
+    h1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    h3{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    h4{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    h5{
+        font-size: 16px;
+        font-weight: 300;
+    }
     /*fill sidebar*/
     .nav-links#sidebar{
         width: 100%;
@@ -359,15 +383,15 @@ footer {
 
     .slide-wrapper .item-list .card {
         flex: 0 0 auto; /* Allow cards to shrink or grow within the flex container */
-        width: 100%; /*calc(100% - 20px);  Calculate width to leave 5% margin on both sides considering padding */
-        max-width: 400px; /* Set a maximum width for individual cards if necessary */
+        width: 100%; 
+        max-width: 400px; 
     }
     .slide-wrapper .item-list .card#last-child {
         margin-right: 0; /* Remove right margin from the last card to prevent extra space */
     }
 
     .slide-wrapper .item-list .card .item-image {
-        width: 100%; /* Ensure the image container fills the card */
+        width: 100%; 
         height: 0; /* Set initial height for aspect ratio */
         padding-bottom: 100%; /* Create a square aspect ratio (change as needed) */
         position: relative;
@@ -378,9 +402,9 @@ footer {
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%; /* Make the image fill its parent container */
-        height: 100%; /* Make the image fill its parent container */
-        object-fit: cover; /* Maintain image aspect ratio while covering the container */
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
     }
     
     .slide-wrapper .item-list .item-details{
