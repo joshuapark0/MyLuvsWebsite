@@ -353,12 +353,17 @@ footer {
         position:relative;
     }
     .slide-wrapper .item-list{
-        width:400px;
-        height:500px;
-        object-fit: cover;
+        width:100%;
+        height:auto;
+        max-width: 400px;
+    }
+
+    .slide-wrapper .item-list .card {
+        width: 100%;
     }
     .slide-wrapper .item-list .item-image img{
         width:100%;
+        height:auto;
         object-fit: cover;
     }
     .slide-wrapper .item-list .item-details{
