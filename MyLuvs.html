@@ -190,6 +190,8 @@
     </footer>
 
 <!--Javascript functions-->
+
+    <!-- Change the logo color when scrolling down -->
     <script type="text/javascript">
         window.addEventListener("scroll", function(){
             var header = document.querySelector("header");
@@ -204,6 +206,7 @@
         });
     </script>
 
+    <!-- Show / Hide SideBar -->
     <script>
         function showSidebar(){
             const sidebar = document.querySelector('.nav-links#sidebar')
@@ -215,12 +218,16 @@
         }
     </script>
 
+    <!-- Slide Images according to the slide button clicks -->
     <script>
         const initSlider = () => {
+            const imageList = document.querySelector(".slide-wrapper .item-list");
             const slideButtons = document.querySelectorAll(".slide-wrapper .slide-button");
             slideButtons.forEach(button =>{
                 button.addEventListener("click", () =>{
-                    console.log(button);
+                    const direction = button.id === "prev-slide" ? -1 : 1;
+                    const scrollAmount = item-list.clientWidth * direction;
+                    imageList.ScrollBy({ left: scrollAmount, behavior: "smooth"});
                 })
             })
         }
