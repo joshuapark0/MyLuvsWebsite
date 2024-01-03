@@ -415,11 +415,13 @@ footer {
         align-items: center;
         display:flex;
         position: relative;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
     }
     .mobile-buttons-container{
         display: flex;
-        position: center;
+        align-items: center; /* Center buttons vertically */
+        margin: 0 auto;
     }
 
     .mobile-slide-button{
