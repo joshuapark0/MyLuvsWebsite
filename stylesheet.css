@@ -407,18 +407,22 @@ footer {
         padding-top: 0;
         margin-top: 5%;}
 
+    .slide-wrapper .slide-button#prev-slide{ display:none;} 
+    .slide-wrapper .slide-button#next-slide{ display:none;}
+
     .mobile-slide-wrapper{
         margin: 5% 5%;
         align-items: center;
         display:flex;
     }
-    .slide-wrapper .slide-button#prev-slide{
-        display:none;
+    .mobile-slide-wrapper .slide-button#prev-slide{
+        left:-100px;
     }
     
-    .slide-wrapper .slide-button#next-slide{
-        display:none;
+    .mobile-slide-wrapper .slide-button#next-slide{
+        right:-100px;
     }
+    
 
 }
 
