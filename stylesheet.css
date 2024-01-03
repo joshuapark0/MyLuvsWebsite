@@ -412,7 +412,7 @@ footer {
         align-items: center;
         display:flex;
     }
-    .slide-wrapper.slide-button{
+    .slide-button{
         display:none;
     }
 
