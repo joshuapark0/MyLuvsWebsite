@@ -340,11 +340,37 @@ footer {
     }
 }
 
-/*fill sidebar*/
+
 @media(max-width: 430px){
+    /*fill sidebar*/
     .nav-links#sidebar{
         width: 100%;
     }
+    /*fill the item slider for mobile version*/
+    .slide-wrapper{
+        display: grid;
+        margin: 0 2.5%;
+        position:relative;
+    }
+
+    .slide-wrapper .item-list .item-image{
+        height:350px;
+        width:250px;
+        object-fit: cover;
+    }
+    .slide-wrapper .item-list .item-image img{
+        width:100%;
+        object-fit: cover;
+    }
+    .slide-wrapper .item-list .item-details{
+        align-items: center;
+        width:100%;
+        object-fit: cover;
+        padding-top: 0;
+        margin-top: 5%;
+    }
+    
+
 }
 
 
