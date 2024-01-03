@@ -226,6 +226,7 @@ header.sticky ul li a:hover::after{
 .section-border#explanation{
     margin-right: 5%;
     margin-left: 5%;
+    padding-top: 0;
 }
 
 .content-wrapper{
