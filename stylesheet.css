@@ -272,7 +272,7 @@ header.sticky ul li a:hover::after{
 
 .slide-wrapper .item-list{
     display: grid;
-    gap:20px;
+    gap:5%;
     grid-template-columns: repeat(13, 1fr);
     overflow-x: auto;
     scrollbar-width: none;
@@ -380,9 +380,10 @@ footer {
         top: 0;
         left: 0;
         width: 100%; /* Make the image fill its parent container */
+        height: 100%; /* Make the image fill its parent container */
         object-fit: cover; /* Maintain image aspect ratio while covering the container */
     }
-
+    
     .slide-wrapper .item-list .item-details{
         align-items: center;
         width:100%;
