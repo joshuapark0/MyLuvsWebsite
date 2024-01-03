@@ -435,11 +435,13 @@ footer {
         align-items: center;
     }
     .mobile-slide-wrapper .mobile-slide-button#prev-slide{
-        margin-right: 5%;
+        left: 50%;
+        transform: translateX(-75%);
         display:flex;
     }  
     .mobile-slide-wrapper.mobile-slide-button#next-slide{
-        margin-left: 5%;
+        right: 50%;
+        transform: translateX(25%);
         display:flex;
     }
     
