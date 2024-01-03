@@ -415,7 +415,7 @@ footer {
         align-items: center;
         display:flex;
     }
-    .mobile-slide-button{
+    .mobile-slide-wrapper.mobile-slide-button{
         position: absolute;
         height:50px;
         width: 50px;
