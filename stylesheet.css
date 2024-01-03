@@ -415,7 +415,7 @@ footer {
         align-items: center;
         display:flex;
     }
-    .mobile-slide-wrapper.mobile-slide-button{
+    .mobile-slide-button{
         position: absolute;
         height:50px;
         width: 50px;
@@ -426,6 +426,8 @@ footer {
         border-radius: 50%;
         border:none;
         outline:none;
+        top:50%;
+        transform: translateY(-50%);
         opacity:0.75;
         z-index: 999;
     }
