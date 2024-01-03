@@ -366,6 +366,9 @@ footer {
         font-weight: 300;}
     
     /* Adjust header size*/
+    header{
+        height: 80px;
+    }
     .header-container{
         height: 60px;
         width: 100%;
@@ -375,10 +378,9 @@ footer {
         height: 50px;
     }
     .menu-image{
-        width: 20px;
-        height: 10px;
+    width: 40px;
+    height: 20px;
     }
-
 
     .section-border#explanation{
         text-align: center;
