@@ -372,8 +372,7 @@ footer {
         margin: 0 5%;
         position:relative;}
     .slide-wrapper .item-list {
-        flex-direction: column; /* Change flex direction to column for mobile */
-        align-items: center;
+        display: flex; /* Use flexbox for horizontal alignment */
         padding: 10px 0; /* Add padding to the top and bottom of the item list */ }
     .slide-wrapper .item-list .card {
         flex: 0 0 auto; /* Allow cards to shrink or grow within the flex container */
@@ -401,10 +400,21 @@ footer {
         padding-top: 0;
         margin-top: 5%;}
 
-    .slide-wrapper .slide-button{
-        position: static; /* Remove absolute positioning for mobile */
-        margin-top: 10px; /* Add spacing between card and buttons */
-    }
+        .slide-wrapper .slide-button {
+            position: absolute; /* Position the buttons absolutely */
+            width: 50px;
+            height: 50px;
+            color: white;
+            background: #C79B89;
+            font-size: 2.2rem;
+            cursor: pointer;
+            border-radius: 50%;
+            border: none;
+            outline: none;
+            bottom: 10px; /* Position the buttons at the bottom */
+            left: 50%; /* Align buttons horizontally to the center */
+            transform: translateX(-50%); /* Adjust to center-align the buttons */
+          }
 }
 
 
