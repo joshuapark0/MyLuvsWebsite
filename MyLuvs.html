@@ -223,7 +223,13 @@
         const initSlider = () => {
             const imageList = document.querySelector(".slide-wrapper .item-list");
             const slideButtons = document.querySelectorAll(".slide-wrapper .slide-button");
-            const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
+            //const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
+            const updateScrollLimits = () => {
+                return {
+                  maxScrollLeft: imageList.scrollWidth - imageList.clientWidth,
+                  tolerance: 10, // Adjust this tolerance value as needed
+                };
+              };
 
             slideButtons.forEach(button => {
                 button.addEventListener("click", () =>{
@@ -235,7 +241,7 @@
 
             const handleSlideButtons = () => {
                 slideButtons[0].style.display = imageList. scrollLeft <= 0 ? "none" : "block";
-                slideButtons[1].style.display = imageList. scrollLeft > maxScrollLeft ? "none" : "block";
+                slideButtons[1].style.display =  imageList.scrollLeft >= maxScrollLeft - tolerance ? "none" : "block";
             }
 
             imageList.addEventListener("scroll", () => {
