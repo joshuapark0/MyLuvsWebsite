@@ -421,8 +421,8 @@ footer {
     .mobile-buttons-container{
         display: flex;
         align-items: center; /* Center buttons vertically */
-        margin: 0 5%;
-        gap: 5%;
+        margin: 0 auto;
+        gap: 10px;
     }
 
     .mobile-slide-button{
