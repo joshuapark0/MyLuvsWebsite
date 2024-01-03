@@ -349,7 +349,7 @@ footer {
     /*fill the item slider for mobile version*/
     .slide-wrapper{
         display: grid;
-        margin: 0 2.5%;
+        margin: 0 5%;
         position:relative;
     }
 
