@@ -346,26 +346,26 @@ footer {
         font-size: 30px;
         font-weight: 700;
     }
-    
     h2{
         font-size: 25px;
         font-weight: 500;
     }
-    
     h3{
         font-size: 18px;
         font-weight: 400;
     }
-    
     h4{
         font-size: 18px;
         font-weight: 500;
     }
-    
     h5{
         font-size: 16px;
         font-weight: 300;
     }
+    .section-border#explanation{
+        text-align: center;
+    }
+
     /*fill sidebar*/
     .nav-links#sidebar{
         width: 100%;
