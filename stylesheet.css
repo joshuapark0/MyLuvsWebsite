@@ -422,6 +422,7 @@ footer {
         display: flex;
         align-items: center; /* Center buttons vertically */
         margin: 0 5%;
+        gap: 5%;
     }
 
     .mobile-slide-button{
