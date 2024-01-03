@@ -364,6 +364,21 @@ footer {
     h5{
         font-size: 16px;
         font-weight: 300;}
+    
+    /* Adjust header size*/
+    .header-container{
+        height: 60px;
+        width: 100%;
+    }
+    .logo-image{
+        width: 50px;
+        height: 50px;
+    }
+    .menu-image{
+        width: 20px;
+        height: 10px;
+    }
+
 
     .section-border#explanation{
         text-align: center;
