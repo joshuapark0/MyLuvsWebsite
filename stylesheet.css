@@ -412,7 +412,11 @@ footer {
         align-items: center;
         display:flex;
     }
-    .slide-button{
+    .slide-wrapper .slide-button#prev-slide{
+        display:none;
+    }
+    
+    .slide-wrapper .slide-button#next-slide{
         display:none;
     }
 
