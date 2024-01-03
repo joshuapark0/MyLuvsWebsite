@@ -232,6 +232,9 @@
             const imageList = document.querySelector(".slide-wrapper .item-list");
             const slideButtons = document.querySelectorAll(".slide-wrapper .slide-button");
             const mobileSlideButtons = document.querySelectorAll(".slide-wrapper .mobile-slide-button");
+            const slides = document.querySelectorAll(".slide-wrapper .card"); // Select all slides
+            // Get the width of a single slide
+            const slideWidth = slides[0].getBoundingClientRect().width;
             //const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
 
             slideButtons.forEach(button => {
