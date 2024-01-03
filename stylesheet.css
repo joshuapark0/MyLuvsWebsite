@@ -341,7 +341,7 @@ footer {
 }
 
 /*fill sidebar*/
-@media(max-width: 400px){
+@media(max-width: 430px){
     .nav-links#sidebar{
         width: 100%;
     }
