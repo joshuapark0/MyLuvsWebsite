@@ -412,24 +412,26 @@ footer {
 
     .mobile-slide-wrapper{
         margin: 5% 5%;
-        height:70px;
-        width: 70px;
         align-items: center;
         display:flex;
+        position: relative;
     }
-    .mobile-slide-wrapper.mobile-slide-button{
+    .mobile-slide-button{
         position: absolute;
-        height:50px;
+        height: 50px;
         width: 50px;
         color: white;
         background: #C79B89;
         font-size: 2.2rem;
         cursor: pointer;
         border-radius: 50%;
-        border:none;
-        outline:none;
-        opacity:0.75;
+        border: none;
+        outline: none;
+        opacity: 0.75;
         z-index: 999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .mobile-slide-wrapper .mobile-slide-button#prev-slide{
         left:-50px;
