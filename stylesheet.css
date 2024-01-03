@@ -361,7 +361,6 @@ footer {
         flex: 0 0 auto; /* Allow cards to shrink or grow within the flex container */
         width: calc(100% - 20px); /* Calculate width to leave 5% margin on both sides considering padding */
         max-width: 400px; /* Set a maximum width for individual cards if necessary */
-        margin-right: 10px; /* Add spacing between cards */
     }
     .slide-wrapper .item-list .card#last-child {
         margin-right: 0; /* Remove right margin from the last card to prevent extra space */
