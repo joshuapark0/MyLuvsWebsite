@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile-First Responsive Page</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src = "MyLuvs.js" defer></script>
     <link rel="stylesheet" href="https://use.typekit.net/yhr4cwv.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
@@ -198,73 +199,6 @@
 
 <!--Javascript functions-->
 
-    <!-- Change the logo color when scrolling down -->
-    <!---->
-    <script type="text/javascript">
-        window.addEventListener("scroll", function(){
-            var header = document.querySelector("header");
-            var logo = document.getElementById('logo');
-            header.classList.toggle("sticky", window.scrollY > 500);
-            if(window.scrollY > 500){
-                logo.src = "WhiteOutlineLogo.png";
-            }
-            else{
-                logo.src = "WhiteOutlineLogo.png";
-            }
-        });
-    </script>
-
-    <!-- Show / Hide SideBar -->
-    <script>
-        function showSidebar(){
-            const sidebar = document.querySelector('.nav-links#sidebar')
-            sidebar.style.display = 'flex'
-        }
-        function hideSidebar(){
-            const sidebar = document.querySelector('.nav-links#sidebar')
-            sidebar.style.display = 'none'
-        }
-    </script>
-
-    <!-- Slide Images according to the slide button clicks -->
-    <script type="text/javascript">
-        const initSlider = () => {
-            const imageList = document.querySelector(".slide-wrapper .item-list");
-            const slideButtons = document.querySelectorAll(".slide-wrapper .slide-button");
-            const mobileSlideButtons = document.querySelectorAll(".slide-wrapper .mobile-slide-button");
-           // const slides = document.querySelectorAll(".slide-wrapper .item-list .card");
-           // return slides[0].getBoundingClientRect().width; // Width of the slide including margins
-           
-            //const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
-
-            slideButtons.forEach(button => {
-                button.addEventListener("click", () =>{
-                    const direction = button.id === "prev-slide" ? -1 : 1;
-                    const scrollAmount = imageList.clientWidth * direction;
-                    imageList.scrollBy({ left: scrollAmount, behavior: "smooth"});
-                })
-            })
-
-            mobileSlideButtons.forEach(button => {
-                button.addEventListener("click", () =>{
-                    const direction = button.id === "prev-slide" ? -1 : 1;
-                    const scrollAmount = imageList.clientWidth * direction;
-                    imageList.scrollBy({ left: scrollAmount, behavior: "smooth"});
-                })
-            })
-
-            /*
-            const handleSlideButtons = () => {
-                slideButtons[0].style.display = imageList. scrollLeft <= 0 ? "none" : "block";
-                slideButtons[1].style.display = imageList. scrollLeft >= maxScrollLeft ? "none" : "block";
-            }
-            */ 
-            imageList.addEventListener("scroll", () => {
-                handleSlideButtons();
-            });
-        }
-        window.addEventListener("load", initSlider);
-    </script>
 
 
 
