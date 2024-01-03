@@ -237,14 +237,20 @@ header.sticky ul li a:hover::after{
 
 .slide-wrapper{
     display: grid;
-    /*margin: 0 2.5%;*/
-    width: 95%
+    margin: 0 2.5%;
 }
 
 .slide-wrapper .item-list{
     display: grid;
     gap:20px;
     grid-template-columns: repeat(13, 1fr);
+    overflow-x: auto;
+    scrollbar-width: none;
+    font-size: 0;
+}
+
+.slide-wrapper .item-list::-webkit-scrollbar{
+    display: none;
 }
 
 .slide-wrapper .item-list .item-image{
