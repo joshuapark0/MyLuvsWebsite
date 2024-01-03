@@ -238,6 +238,7 @@ header.sticky ul li a:hover::after{
 .slide-wrapper{
     display: grid;
     margin: 0 2.5%;
+    position:relative;
 }
 
 .slide-wrapper .slide-button{
