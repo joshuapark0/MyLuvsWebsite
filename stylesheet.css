@@ -419,6 +419,7 @@ footer {
     }
     .mobile-buttons-container{
         display: flex;
+        position: center;
     }
 
     .mobile-slide-button{
