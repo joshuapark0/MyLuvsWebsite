@@ -237,7 +237,8 @@ header.sticky ul li a:hover::after{
 
 .slide-wrapper{
     display: grid;
-    margin: 0 2.5%;
+    /*margin: 0 2.5%;*/
+    width: 95%
 }
 
 .slide-wrapper .item-list{
