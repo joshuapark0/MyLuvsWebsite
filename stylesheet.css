@@ -417,8 +417,11 @@ footer {
         position: relative;
         justify-content: space-between;
     }
+    .mobile-buttons-container{
+        display: flex;
+    }
+
     .mobile-slide-button{
-        position: absolute;
         height: 50px;
         width: 50px;
         color: white;
@@ -429,19 +432,10 @@ footer {
         border: none;
         outline: none;
         opacity: 0.75;
+        margin: 0 5%; /* Adjust the space between the buttons */
         z-index: 999;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
-    .mobile-slide-wrapper .mobile-slide-button#prev-slide{
-        transform: translateX(-25%);
-        display:flex;
-    }  
-    .mobile-slide-wrapper.mobile-slide-button#next-slide{
-        transform: translateX(-25%);
-        display:flex;
-    }
+
     
 
 }
