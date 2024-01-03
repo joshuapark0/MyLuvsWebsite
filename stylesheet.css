@@ -67,11 +67,6 @@ header{
     top:0;
 }
 
-header.sticky{
-    background-color: white;
-    
-}
-
 .header-container{
     height: 80px;
     width: 100%;
@@ -139,6 +134,11 @@ nav ul li{
     height: 100vh;
     background: url(Promo_Images/Banner.JPG);
     background-size: cover;
+}
+
+header.sticky{
+    background-color: #C79B89;
+    
 }
 
 header.sticky ul li a{
