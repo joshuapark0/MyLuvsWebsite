@@ -251,7 +251,7 @@ header.sticky ul li a:hover::after{
     border-radius: 50%;
     border:none;
     outline:none;
-    top:50%;
+
     transform: translateY(-50%);
 }
 
