@@ -246,17 +246,12 @@
             })
 
             mobileSlideButtons.forEach(button => {
-                button.addEventListener("click", () => {
+                button.addEventListener("click", () =>{
                     const direction = button.id === "prev-slide" ? -1 : 1;
                     const scrollAmount = slideWidth * direction;
-                    const currentScroll = imageList.scrollLeft;
-                    const maxScroll = Math.floor(currentScroll / slideWidth) * slideWidth;
-                    imageList.scrollTo({
-                        left: maxScroll + scrollAmount,
-                        behavior: "smooth"
-                    });
-                });
-            });
+                    imageList.scrollBy({ left: scrollAmount, behavior: "smooth"});
+                })
+            })
 
             /*
             const handleSlideButtons = () => {
