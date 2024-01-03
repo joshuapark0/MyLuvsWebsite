@@ -240,7 +240,7 @@ header.sticky ul li a:hover::after{
     margin: 0 2.5%;
 }
 
-.slide-button{
+.slide-wrapper .slide-button{
     position: absolute;
     height:50px;
     width: 50px;
@@ -251,15 +251,15 @@ header.sticky ul li a:hover::after{
     border-radius: 50%;
     border:none;
     outline:none;
-    /*top:50%;
-    transform: translateY(-50%);*/
+    top:50%;
+    transform: translateY(-50%);
 }
 
-.slide-button#prev-slide{
+.slide-wrapper .slide-button#prev-slide{
     left:-20px;
 }
 
-.slide-button#next-slide{
+.slide-wrapper .slide-button#next-slide{
     right:-20px;
 }
 
