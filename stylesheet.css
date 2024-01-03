@@ -425,17 +425,17 @@ footer {
     }
 
     .mobile-slide-button{
-        height: 50px;
+        position: absolute;
+        height:50px;
         width: 50px;
         color: white;
         background: #C79B89;
         font-size: 2.2rem;
         cursor: pointer;
         border-radius: 50%;
-        border: none;
-        outline: none;
-        opacity: 0.75;
-        margin: 0 5%; /* Adjust the space between the buttons */
+        border:none;
+        outline:none;
+        opacity:0.75;
         z-index: 999;
     }
 
