@@ -412,6 +412,8 @@ footer {
 
     .mobile-slide-wrapper{
         margin: 5% 5%;
+        height:70px;
+        width: 70px;
         align-items: center;
         display:flex;
     }
