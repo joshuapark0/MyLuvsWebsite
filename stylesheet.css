@@ -415,6 +415,7 @@ footer {
         align-items: center;
         display:flex;
         position: relative;
+        justify-content: space-between;
     }
     .mobile-slide-button{
         position: absolute;
@@ -434,11 +435,11 @@ footer {
         align-items: center;
     }
     .mobile-slide-wrapper .mobile-slide-button#prev-slide{
-        left:-50px;
+        margin-right: 5%;
         display:flex;
     }  
     .mobile-slide-wrapper.mobile-slide-button#next-slide{
-        right:-50px;
+        margin-left: 5%;
         display:flex;
     }
     
