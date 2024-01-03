@@ -380,10 +380,9 @@ footer {
         top: 0;
         left: 0;
         width: 100%; /* Make the image fill its parent container */
-        height: 100%; /* Make the image fill its parent container */
         object-fit: cover; /* Maintain image aspect ratio while covering the container */
     }
-    
+
     .slide-wrapper .item-list .item-details{
         align-items: center;
         width:100%;
