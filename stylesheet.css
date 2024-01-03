@@ -235,6 +235,11 @@ header.sticky ul li a:hover::after{
     align-items: center;
 }
 
+.slide-wrapper{
+    display: grid;
+    margin: 0 5%;
+}
+
 .slide-wrapper .item-list{
     display: grid;
     gap:20px;
