@@ -258,7 +258,7 @@ header.sticky ul li a:hover::after{
 }
 
 .slide-wrapper .slide-button:hover{
-    background: #C79B89;
+    opacity:1;
 }
 
 .slide-wrapper .slide-button#prev-slide{
