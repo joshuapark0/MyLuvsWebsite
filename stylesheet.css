@@ -240,6 +240,29 @@ header.sticky ul li a:hover::after{
     margin: 0 2.5%;
 }
 
+.slide-wrapper .slide-button{
+    position: absolute;
+    height:50px;
+    width: 50px;
+    color: white;
+    background: #C79B89;
+    font-size: 2.2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    border:none;
+    outline:none;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.slide-wrapper .slide-button#prev-slide{
+    left:-20px;
+}
+
+.slide-wrapper .slide-button#next-slide{
+    right:-20px;
+}
+
 .slide-wrapper .item-list{
     display: grid;
     gap:20px;
