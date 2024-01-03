@@ -412,6 +412,9 @@ footer {
         align-items: center;
         display:flex;
     }
+    .slide-wrapper.slide-button{
+        display:none;
+    }
 
 }
 
