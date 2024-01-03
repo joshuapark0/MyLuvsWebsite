@@ -352,9 +352,8 @@ footer {
         margin: 0 5%;
         position:relative;
     }
-    .slide-wrapper .item-list .item-image{
-        width:400px;
-        height:500px;
+    .slide-wrapper .item-list{
+        width:100vh;
         object-fit: cover;
     }
     .slide-wrapper .item-list .item-image img{
