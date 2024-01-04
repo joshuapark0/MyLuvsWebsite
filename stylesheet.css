@@ -386,7 +386,7 @@ nav ul li .footList{
     color: white;
 }
 
-.nav-links li a{
+.nav-links li a.footList{
     text-decoration: none;
     color: white;
     padding: 5px 20px; 
