@@ -366,9 +366,7 @@ footer {
 /* Footer */
 
 .section-border#Footer{
-    margin-right: 5%;
-    margin-left: 5%;
-    padding-top: 50px;
+    margin: 10% 5%;
 }
 
 
