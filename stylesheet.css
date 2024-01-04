@@ -241,7 +241,30 @@ header.sticky ul li a:hover::after{
     position:relative;
 }
 
+.second-slide-wrapper-{
+    display: grid;
+    margin: 0 2.5%;
+    position:relative;
+}
+
 .slide-button{
+    position: absolute;
+    height:50px;
+    width: 50px;
+    color: white;
+    background: #C79B89;
+    font-size: 2.2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    border:none;
+    outline:none;
+    top:50%;
+    transform: translateY(-50%);
+    opacity:0.75;
+    z-index: 999;
+}
+
+.second-slide-button{
     position: absolute;
     height:50px;
     width: 50px;
@@ -262,11 +285,23 @@ header.sticky ul li a:hover::after{
     opacity:1;
 }
 
+.second-slide-button:hover{
+    opacity:1;
+}
+
 .slide-wrapper .slide-button#prev-slide{
     left:-20px;
 }
 
+.second-slide-wrapper .second-slide-button#second-prev-slide{
+    left:-20px;
+}
+
 .slide-wrapper .slide-button#next-slide{
+    right:-20px;
+}
+
+.second-slide-wrapper .second-slide-button#second-next-slide{
     right:-20px;
 }
 
