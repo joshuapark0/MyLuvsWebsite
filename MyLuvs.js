@@ -69,10 +69,6 @@ const SecondSlider = () => {
     const imageList = document.querySelector(".slide-wrapper .item-list#second-list");
     const slideButtons = document.querySelectorAll(".slide-wrapper .second-slide-button");
     const mobileSlideButtons = document.querySelectorAll(".slide-wrapper .second-mobile-slide-button");
-    // const slides = document.querySelectorAll(".slide-wrapper .item-list .card");
-    // return slides[0].getBoundingClientRect().width; // Width of the slide including margins
-
-    //const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
 
     slideButtons.forEach(button => {
         button.addEventListener("click", () =>{
@@ -90,13 +86,8 @@ const SecondSlider = () => {
         })
     })
 
-    /*
-    const handleSlideButtons = () => {
-        slideButtons[0].style.display = imageList. scrollLeft <= 0 ? "none" : "block";
-        slideButtons[1].style.display = imageList. scrollLeft >= maxScrollLeft ? "none" : "block";
-    }
-    */ 
     imageList.addEventListener("scroll", () => {
         handleSlideButtons();
     });
 }
+window.addEventListener("load", SecondSlider);
