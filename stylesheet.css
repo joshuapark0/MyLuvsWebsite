@@ -293,7 +293,7 @@ header.sticky ul li a:hover::after{
     left:-20px;
 }
 
-.second-slide-wrapper .second-slide-button#second-prev-slide{
+.slide-wrapper .second-slide-button#second-prev-slide{
     left:-20px;
 }
 
@@ -301,7 +301,7 @@ header.sticky ul li a:hover::after{
     right:-20px;
 }
 
-.second-slide-wrapper .second-slide-button#second-next-slide{
+.slide-wrapper .second-slide-button#second-next-slide{
     right:-20px;
 }
 
