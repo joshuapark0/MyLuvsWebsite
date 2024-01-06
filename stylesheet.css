@@ -403,6 +403,7 @@ nav ul li .footList{
 }*/
 
 .site-footer {
+    padding-top: 50px;
     background-color: #C79B89;
     height: 70px;
     bottom: 0;
