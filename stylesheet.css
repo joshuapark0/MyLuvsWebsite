@@ -364,43 +364,6 @@ footer {
 
 
 /* Footer */
-/*
-.section-border#Footer{
-    padding-top: 25px;
-    margin: 5% 2%;
-}
-
-.content-wrapper#content-footer{
-    padding:0;
-    margin:0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav.footList{
-    
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Cormorant Garamond';
-}
-
-nav ul li .footList{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 30px;
-    font-size: 18px;
-    color: white;
-}
-
-.nav-links li a.footList{
-    text-decoration: none;
-    color: white;
-    padding: 5px 20px; 
-    position: relative;
-}*/
 
 .site-footer {
     margin-top: 5%;
@@ -412,6 +375,16 @@ nav ul li .footList{
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .footer-image{
+    height:50px;
+    width:50px;
+    position: relative;
+    float: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-text-size-adjust: 100%;
   }
   
   .footer-menu {
