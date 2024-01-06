@@ -117,7 +117,8 @@ nav ul li{
     position: relative;
 }
 
-.nav-links li a::after{
+.nav-links li a::after,
+.nav-links li a:hover::after.active{
     content:'';
     background: white;
     width: 0%;
@@ -127,8 +128,7 @@ nav ul li{
     left: 0;
     transition: width 0.5s;
 }
-.nav-links li a:hover::after,
-.nav-links li a:hover::after.active{
+.nav-links li a:hover::after{
     width: 100%
 }
 
