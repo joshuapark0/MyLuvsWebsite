@@ -364,7 +364,7 @@ footer {
 
 
 /* Footer */
-
+/*
 .section-border#Footer{
     padding-top: 25px;
     margin: 5% 2%;
@@ -400,7 +400,39 @@ nav ul li .footList{
     color: white;
     padding: 5px 20px; 
     position: relative;
-}
+}*/
+
+.site-footer {
+    background-color: #f2f2f2;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-menu li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .footer-menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
 
 
 /* Mobile Styles */
