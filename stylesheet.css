@@ -378,7 +378,7 @@ footer {
 
 .footer-image-container{
     position: absolute; 
-    top: -25px; 
+    margin-top: 5%; 
 }   
   .footer-image{
     height:50px;
