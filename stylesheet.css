@@ -404,7 +404,7 @@ nav ul li .footList{
 
 .site-footer {
     margin-top: 5%;
-    background-color: #C79B89;
+    background-color: #F5F4EE;
     height: 70px;
     bottom: 0;
     width: 100%;
@@ -430,7 +430,7 @@ nav ul li .footList{
   
   .footer-menu li a {
     text-decoration: none;
-    color: #fff;
+    color: #C79B89;
   }
 
 
