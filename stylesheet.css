@@ -403,9 +403,8 @@ nav ul li .footList{
 }*/
 
 .site-footer {
-    background-color: #f2f2f2;
-    height: 50px;
-
+    background-color: #C79B89;
+    height: 70px;
     bottom: 0;
     width: 100%;
     display: flex;
