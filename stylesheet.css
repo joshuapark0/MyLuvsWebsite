@@ -117,7 +117,7 @@ nav ul li{
     position: relative;
 }
 
-.nav-links li a::after{
+.nav-links li a.active::after{
     content:'';
     background: white;
     width: 0%;
