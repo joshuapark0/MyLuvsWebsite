@@ -377,11 +377,8 @@ footer {
 }
 
 .footer-image-container{
-    margin-top: 5%;
-    height:50px;
-    width:100%;
-    display: flex;
-    box-sizing: border-box;
+    position: absolute; 
+    top: -25px; 
 }   
   .footer-image{
     height:50px;
