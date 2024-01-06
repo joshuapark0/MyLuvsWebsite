@@ -431,8 +431,9 @@ footer {
     color: #E9AFA3;
   }
 
-  .facebook{
-    src: "facebook.png";
+  .social-icon img {
+    width: 30px; 
+    height: 30px;
   }
 
 /* Mobile Styles */
