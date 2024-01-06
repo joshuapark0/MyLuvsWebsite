@@ -405,7 +405,7 @@ nav ul li .footList{
 .site-footer {
     background-color: #f2f2f2;
     height: 50px;
-    position: fixed;
+
     bottom: 0;
     width: 100%;
     display: flex;
