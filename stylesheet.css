@@ -413,7 +413,23 @@ footer {
     text-decoration: none;
     color: #C79B89;
   }
-
+  .social-icons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+  }
+  
+  .social-icon {
+    color: #C79B89;
+    font-size: 24px;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #E9AFA3;
+  }
 
 /* Mobile Styles */
 @media (min-width: 600px) {
