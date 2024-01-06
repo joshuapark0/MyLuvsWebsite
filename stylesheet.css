@@ -403,7 +403,7 @@ nav ul li .footList{
 }*/
 
 .site-footer {
-    margin-top: 5%;
+    margin: 5% 0;
     background-color: #F5F4EE;
     height: 70px;
     bottom: 0;
