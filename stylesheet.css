@@ -431,6 +431,10 @@ footer {
     color: #E9AFA3;
   }
 
+  .facebook{
+    src: "facebook.png";
+  }
+
 /* Mobile Styles */
 @media (min-width: 600px) {
     body {
