@@ -366,7 +366,6 @@ footer {
 /* Footer */
 
 .site-footer {
-    margin-bottom: 2%;
     background-color: #F5F4EE;
     height: 70px;
     bottom: 0;
@@ -415,6 +414,13 @@ footer {
   }
   .social-icons {
     display: flex;
+    margin-bottom: 2%;
+    background-color: #F5F4EE;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
   
   .social-icon {
