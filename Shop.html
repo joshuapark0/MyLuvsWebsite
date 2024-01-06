@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile-First Responsive Page</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src = "MyLuvs.js" defer></script>
+    <script src="https://kit.fontawesome.com/6d71c14d42.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/yhr4cwv.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+
+    <header class="sticky">    
+        <div class="header-container">
+            <nav>
+                <img src="WhiteOutlineLogo.png" class= "logo-image" id="logo">
+                <ul class="nav-links">
+                    <li class = "hideOnMobile"><a href="MyLuvs.html">Home</a></li>
+                    <li class = "hideOnMobile"><a href="Shop.html" class="active">Shop</a></li>
+                    <li class = "hideOnMobile"><a href="About.html">About</a></li>
+                    <li class = "hideOnMobile"><a href="Contact.html">Contact</a></li>
+                    <li onclick= showSidebar() class = "hideOnDesktop"><a href="#"><img src="WhiteMenu.png"class= "menu-image"></a></li>
+                </ul>
+                <ul class= "nav-links" id="sidebar">
+                    <li onclick= hideSidebar()><a href="#"><img src="WhiteExit.png"class= "exit-image"></a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Shop">Shop</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="banner"></section>
+   
+    <div class="footer-image-container">
+        <img src="BrownOutlineLogo.png"class= "footer-image">
+    </div>
+    <div class="site-footer">
+        <ul class="footer-menu">
+          <li class="footList"><a href="#Home">Home</a></li><li class="footList"><a>|</a></li>
+          <li class="footList"><a href="#Shop">Shop</a></li><li class="footList"><a>|</a></li>
+          <li class="footList"><a href="#About">About</a></li><li class="footList"><a>|</a></li>
+          <li class="footList"><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/MyLuvs.co/"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/myluvs.co/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.pinterest.com/myluvs035/"><i class="fa-brands fa-pinterest-p"></i></a>
+    </div>
+        <!--
+    <main>
+
+     <p>This is a mobile-first responsive webpage...</p>
+        <p>Resize your browser window to see how the layout adapts!</p> 
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Company</p>
+    </footer>
+    -->
+
+<!--Javascript functions-->
+
+
+
+
+</body>
+
+</html>

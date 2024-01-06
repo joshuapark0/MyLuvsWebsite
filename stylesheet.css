@@ -127,7 +127,8 @@ nav ul li{
     left: 0;
     transition: width 0.5s;
 }
-.nav-links li a:hover::after{
+.nav-links li a:hover::after,
+.nav-links li a:hover::after.active{
     width: 100%
 }
 
