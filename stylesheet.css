@@ -366,7 +366,16 @@ footer {
 /* Footer */
 
 .section-border#Footer{
+    padding-top: 25px;
     margin: 5% 2%;
+}
+
+.content-wrapper#content-footer{
+    padding:0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav.footList{
