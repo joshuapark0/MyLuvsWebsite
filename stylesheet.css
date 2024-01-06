@@ -380,8 +380,6 @@ footer {
   .footer-image{
     height:50px;
     width:50px;
-    position: relative;
-    float: center;
     box-sizing: border-box;
     cursor: pointer;
     -webkit-text-size-adjust: 100%;
