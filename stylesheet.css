@@ -448,7 +448,8 @@ main {
     height: 90vh;
     width: 100%;
     background-size: cover;
-    position:top 25% right 0;
+    background-position: center bottom;
+    position:relative;
 }
 
 /* Mobile Styles */
