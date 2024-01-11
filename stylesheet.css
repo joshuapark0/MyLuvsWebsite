@@ -447,6 +447,8 @@ main {
     background-image: url(Promo_Images/Hero.JPG);
     height: 90vh;
     width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0%;
 }
 
 /* Mobile Styles */
