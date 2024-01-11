@@ -450,6 +450,13 @@ main {
     background-size: cover;
     background-position: center center;
     position:relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#hero h4, #hero h1, #hero button {
+    margin: 10px 0; /* Add margin to create space between elements */
 }
 
 /* Mobile Styles */
