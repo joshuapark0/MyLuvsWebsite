@@ -452,9 +452,9 @@ main {
     position:relative;
 
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     flex-direction: column;
-    justify-content: -25%;
+    justify-content: center;
     padding: 0 5%;
 }
 #hero h5{
