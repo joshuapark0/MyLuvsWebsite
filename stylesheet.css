@@ -444,7 +444,7 @@ main {
 /* Shop Page */
 
 .hero-container{
-    margin-top: 30%;
+    margin-top: auto;
     width:100%;
     flex-direction: column;
     justify-content:center;
@@ -460,7 +460,7 @@ main {
     background-size: cover;
     background-position: center center;
     position:relative;
-
+    flex-direction: column;
     display: flex;
     align-items: flex-start;
 }
