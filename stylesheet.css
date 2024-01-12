@@ -496,7 +496,9 @@ main {
 }
 
 /*Category*/
-
+#category{
+    padding:5%;
+}
 
 /* Mobile Styles */
 @media (min-width: 600px) {
