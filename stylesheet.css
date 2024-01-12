@@ -444,7 +444,7 @@ main {
 /* Shop Page */
 
 .hero-container{
-    margin: 25% 0;
+    margin-top: 50%;
     width:100%;
     flex-direction: column;
     justify-content:center;
