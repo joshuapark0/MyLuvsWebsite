@@ -443,6 +443,7 @@ main {
 
 /* Shop Page */
 
+/*hero*/
 .hero-container{
     margin-top: auto;
     width:100%;
@@ -493,6 +494,8 @@ main {
     border: 0;
     padding: 10px 20px;
 }
+
+/*Category*/
 
 
 /* Mobile Styles */
