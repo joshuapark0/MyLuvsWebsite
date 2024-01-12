@@ -474,11 +474,11 @@ main {
     margin: 10px 0;
 }
 #hero button{
-    background-color: white;
+    background-color:#C79B89;
     font-family: "cormorant-garamond", serif;
     font-style: normal;
     font-size: 20px;
-    color: black;
+    color: white;
     font-weight: 400;
     font-style: normal;
     border: 0;
