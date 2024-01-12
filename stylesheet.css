@@ -479,7 +479,8 @@ main {
     font-size: 42px;
     color: white;
     font-weight: 600;
-    margin: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 #hero button{
     background-color:#C79B89;
