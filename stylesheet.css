@@ -500,6 +500,11 @@ main {
     position:relative;
     margin:10% 8%;
 }
+#category.category-box{
+    display: flex;
+    width:100px;
+    flex-direction:row;
+}
 
 #category h5{
     padding: 5px 0;
