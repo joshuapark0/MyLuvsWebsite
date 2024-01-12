@@ -454,7 +454,7 @@ main {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    justify-content: center;
+    justify-content: 25%;
     padding: 0 5%;
 }
 #hero h5{
