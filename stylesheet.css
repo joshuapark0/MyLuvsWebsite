@@ -481,6 +481,7 @@ main {
     color: black;
     font-weight: 400;
     font-style: normal;
+    border: 0;
 }
 
 /* Mobile Styles */
