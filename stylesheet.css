@@ -485,6 +485,10 @@ main {
     padding: 10px 20px;
 }
 
+.hero-container{
+    margin: 50% 0;
+}
+
 /* Mobile Styles */
 @media (min-width: 600px) {
     body {
