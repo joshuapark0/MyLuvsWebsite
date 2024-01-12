@@ -455,7 +455,7 @@ main {
     align-items: flex-start;
     flex-direction: column;
     justify-content:center;
-    padding: 75% 5%;
+    padding: 0 5%;
 }
 #hero h5{
     font-family: "cormorant-garamond", serif;
