@@ -457,7 +457,7 @@ main {
 }
 #hero{
     background-image: url(Promo_Images/Hero.JPG);
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center center;
