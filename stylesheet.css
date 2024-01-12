@@ -443,6 +443,12 @@ main {
 
 /* Shop Page */
 
+.hero-container{
+    margin: 50% 0;
+    flex-direction: column;
+    justify-content:center;
+    padding: 0 5%;
+}
 #hero{
     background-image: url(Promo_Images/Hero.JPG);
     height: 90vh;
@@ -453,9 +459,6 @@ main {
 
     display: flex;
     align-items: flex-start;
-    flex-direction: column;
-    justify-content:center;
-    padding: 0 5%;
 }
 #hero h5{
     font-family: "cormorant-garamond", serif;
