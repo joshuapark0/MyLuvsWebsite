@@ -444,14 +444,14 @@ main {
 /* Shop Page */
 
 .hero-container{
-    margin: 75% 0;
+    margin: 25% 0;
     width:100%;
     flex-direction: column;
     justify-content:center;
     align-items: flex-start;
     display: flex;
     padding: 0 5%;
-    position:absolute;
+    position:relative;
 }
 #hero{
     background-image: url(Promo_Images/Hero.JPG);
