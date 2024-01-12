@@ -456,6 +456,7 @@ main {
     flex-direction: column;
     justify-content:center;
     padding: 0 5%;
+    margin-top: 50%;
 }
 #hero h5{
     font-family: "cormorant-garamond", serif;
@@ -485,9 +486,6 @@ main {
     padding: 10px 20px;
 }
 
-.hero-container{
-    margin: 50% 0;
-}
 
 /* Mobile Styles */
 @media (min-width: 600px) {
