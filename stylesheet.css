@@ -499,11 +499,11 @@ main {
 #category{
     position:relative;
     margin:10% 8%;
-    flex-direction:row;
 }
 #category.category-box{
     display: flex;
     width:100px;
+    flex-direction:row;
 }
 
 #category h5{
