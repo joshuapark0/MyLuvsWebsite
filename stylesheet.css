@@ -503,10 +503,10 @@ main {
     padding-top: 50px;
 }
 #category.category-box{
-
-    display: flex;
-    width:20%;
-    position:relative;
+    --content-column: 2;
+    display: grid;
+    grid-column: 2;
+    
 }
 category-wrapper.category-list{
     display: grid;
