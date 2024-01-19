@@ -502,7 +502,7 @@ main {
     flex-direction:row;
 }
 #category.category-box{
-    padding-top: 50px;
+    padding-top: 20%;
     display: flex;
     width:20%;
     position:relative;
