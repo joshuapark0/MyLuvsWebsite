@@ -496,6 +496,7 @@ main {
 }
 
 /*Category*/
+/*
 #category-container{
     margin:10% 15%;
     display: flex;
@@ -521,7 +522,11 @@ main {
     overflow: hidden;
 }
 
-
+.item-image{
+    height:350px;
+    width:250px;
+    object-fit: cover;
+}
 .item-image img{
     width: 100%;
     height: 200px;
@@ -536,7 +541,7 @@ main {
     margin-top: 5%;
 }
 
-
+*/
 #category h5{
     padding: 5px 0;
     margin:0;
