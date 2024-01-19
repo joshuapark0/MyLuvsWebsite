@@ -524,7 +524,7 @@ main {
 
 
 .category-item-image img{
-    width: 100%;
+    width: 250%;
     height: 300px;
     object-fit: cover;
 }
