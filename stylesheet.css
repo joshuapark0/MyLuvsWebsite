@@ -502,8 +502,9 @@ main {
     flex-direction:row;
 }
 #category.category-box{
+    padding-top: 50px;
     display: flex;
-    width:50px;
+    width:20%;
     position:relative;
 }
 category-wrapper.category-list{
