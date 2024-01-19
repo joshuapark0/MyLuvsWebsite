@@ -503,7 +503,7 @@ main {
 }
 #category.category-box{
     display: flex;
-    width:100px;
+    width:20%;
     position:relative;
 }
 category-wrapper.category-list{
