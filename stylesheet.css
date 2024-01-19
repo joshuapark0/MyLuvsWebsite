@@ -500,9 +500,10 @@ main {
     position:relative;
     margin:10% 8%;
     flex-direction:row;
+    padding-top: 100px;
 }
 #category.category-box{
-    padding-top: 20%;
+
     display: flex;
     width:20%;
     position:relative;
