@@ -452,7 +452,7 @@ main {
     justify-content:center;
     align-items: flex-start;
     display: flex;
-    padding-left: 5%;
+    margin-left: 5%;
     position:relative;
 }
 #hero{
