@@ -453,6 +453,7 @@ main {
     align-items: flex-start;
     display: flex;
     position:relative;
+    padding-left: 5%;
 }
 #hero{
     background-image: url(Promo_Images/Hero.JPG);
