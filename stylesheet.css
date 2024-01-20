@@ -505,7 +505,7 @@ header{
     display: block;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
-    position:relative;
+    position: relative;
     top:0;
     transition: background-color 0.2s;
 }
@@ -527,9 +527,10 @@ header{
 }
 
 .category-list{
-    display: flex;
-    flex-wrap:wrap;
-    gap: 25px;
+    display: grid;
+    gap:25px;
+    grid-template-columns: repeat(2, 1fr);
+    display: inline-block;
 }
 
 .category-card {
