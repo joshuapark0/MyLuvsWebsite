@@ -609,6 +609,7 @@ main {
 
     /* Sticky Header */
     header.sticky{
+        position: fixed;
         background-color: #C79B89;
     }
 
