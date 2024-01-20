@@ -607,6 +607,30 @@ main {
         text-align: center;
     }
 
+    /* Sticky Header */
+    header.sticky{
+        background-color: #C79B89;
+    }
+
+    header.sticky ul li a{
+        color: white; /*#C79A89;*/
+    }
+
+    header.sticky ul li a::after{
+        content:'';
+        background: white; /*#C79A89;*/
+        width: 0%;
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: width 0.5s;
+    }
+
+    header.sticky ul li a:hover::after{
+        width: 100%
+    }
+
     /*fill sidebar*/
     .nav-links#sidebar{
         width: 100%;
