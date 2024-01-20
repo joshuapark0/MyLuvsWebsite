@@ -446,7 +446,7 @@ main {
 /*hero*/
 .hero-container{
     margin-top: auto;
-    width:100%;
+    width:80%;
     transform: translateY(-50%);
     flex-direction: column;
     justify-content:center;
