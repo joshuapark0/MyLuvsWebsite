@@ -587,12 +587,31 @@ main {
         font-weight: 300;}
     
     /* Adjust header size*/
+
     header{
         height: 80px;
+        width: 100%;
+        z-index: 100000;
+        border-width: 0.5px;
+        background-color: transparent;
+        box-sizing: border-box;
+        display: block;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        position:fixed;
+        top:0;
     }
+    
     .header-container{
         height: 60px;
         width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0;
+        display: flex; 
+        justify-content: space-between;
+        -webkit-text-size-adjust: 100%;
+    
     }
     .logo-image{
         width: 50px;
@@ -609,7 +628,6 @@ main {
 
     /* Sticky Header */
     header.sticky{
-        position: fixed;
         background-color: #C79B89;
     }
 
@@ -617,20 +635,7 @@ main {
         color: white; /*#C79A89;*/
     }
 
-    header.sticky ul li a::after{
-        content:'';
-        background: white; /*#C79A89;*/
-        width: 0%;
-        height: 1px;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        transition: width 0.5s;
-    }
 
-    header.sticky ul li a:hover::after{
-        width: 100%
-    }
 
     /*fill sidebar*/
     .nav-links#sidebar{
