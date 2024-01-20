@@ -1,17 +1,17 @@
 //Change the logo color when scrolling down 
 
-window.addEventListener("scroll", function() {
+window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
     var logo = document.getElementById('logo');
-
-    if (window.scrollY > 500) {
-        header.classList.add("sticky");
+    header.classList.toggle("sticky", window.scrollY > 500);
+    if(window.scrollY > 500){
         logo.src = "WhiteOutlineLogo.png";
-    } else {
-        header.classList.remove("sticky");
+    }
+    else{
         logo.src = "WhiteOutlineLogo.png";
     }
 });
+
 
 // Show / Hide SideBar 
 
