@@ -520,6 +520,7 @@ header{
 }
 .category-box{
     display: flex;
+    width: 100%;
     flex: 1;
 }
 .category-side{
@@ -528,14 +529,15 @@ header{
 
 .category-list{
     gap:25px;
-    grid-template-columns: repeat(2, 1fr);
-    display: inline-block;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .category-card {
-    
+    display: inline-block;
     border: none;
     overflow: hidden;
+    margin-right: 50px;
 }
 
 
