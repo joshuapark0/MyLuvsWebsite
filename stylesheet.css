@@ -144,7 +144,6 @@ nav ul li{
 /* Sticky Header */
 header.sticky{
     background-color: #C79B89;
-    position: fixed;
 }
 
 header.sticky ul li a{
@@ -518,7 +517,7 @@ main {
 }
 
 .category-card {
-    flex: 1 0 48%;
+    
     border: none;
     overflow: hidden;
 }
